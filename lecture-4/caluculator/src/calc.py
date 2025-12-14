@@ -46,6 +46,22 @@ class CalculatorApp(ft.Container):
                 ft.Row(controls=[self.result], alignment="end"),
                 ft.Row(
                     controls=[
+                        ExtraActionButton(text="sin", button_clicked=self.button_clicked),
+                        ExtraActionButton(text="cos", button_clicked=self.button_clicked),
+                        ExtraActionButton(text="tan", button_clicked=self.button_clicked),
+                        ExtraActionButton(text="e", button_clicked=self.button_clicked),
+                    ]
+                ),
+                ft.Row(
+                    controls=[
+                        ExtraActionButton(text="log", button_clicked=self.button_clicked),
+                        ExtraActionButton(text="π", button_clicked=self.button_clicked),
+                        ExtraActionButton(text="√", button_clicked=self.button_clicked),
+                        ExtraActionButton(text="exp", button_clicked=self.button_clicked),
+                    ]
+                ),
+                ft.Row(
+                    controls=[
                         ExtraActionButton(text="AC", button_clicked=self.button_clicked),
                         ExtraActionButton(text="+/-", button_clicked=self.button_clicked),
                         ExtraActionButton(text="%", button_clicked=self.button_clicked),
@@ -83,6 +99,7 @@ class CalculatorApp(ft.Container):
                         ActionButton(text="=", button_clicked=self.button_clicked),
                     ]
                 ),
+                
             ]
         )
 
@@ -124,6 +141,46 @@ class CalculatorApp(ft.Container):
             elif float(self.result.value) < 0:
                 self.result.value = str(self.format_number(abs(float(self.result.value))))
 
+        elif data in ("sin", "cos", "tan"):
+            import math
+
+            angle_in_degrees = float(self.result.value)
+            angle_in_radians = math.radians(angle_in_degrees)
+
+            if data == "sin":
+                self.result.value = str(self.format_number(math.sin(angle_in_radians)))
+            elif data == "cos":
+                self.result.value = str(self.format_number(math.cos(angle_in_radians)))
+            elif data == "tan":
+                self.result.value = str(self.format_number(math.tan(angle_in_radians)))
+            elif data == "e": 
+                self.result.value = str(self.format_number(math.e))
+                       
+        elif data in ("log"):
+            import math
+            value = float(self.result.value)
+            if value <= 0:
+                self.result.value = "Error"
+            else:
+                self.result.value = str(self.format_number(math.log10(value)))
+        elif data == "π":
+            import math
+            self.result.value = str(self.format_number(math.pi))
+        elif data == "√":
+            import math
+            value = float(self.result.value)
+            if value < 0:
+                self.result.value = "Error"
+            else:
+                self.result.value = str(self.format_number(math.sqrt(value)))
+        elif data == "exp":
+            import math
+            value = float(self.result.value)
+            self.result.value = str(self.format_number(math.exp(value)))
+        
+
+        
+        
         self.update()
 
     def format_number(self, num):
