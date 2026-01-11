@@ -14,6 +14,7 @@ def now_iso():
 
 def make_3day_summary(times, weathers):
     
+    
     seen = set()
     days = []
     for t, w in zip(times, weathers):
