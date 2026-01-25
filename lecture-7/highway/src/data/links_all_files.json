@@ -1,0 +1,1824 @@
+{
+  "source_index": "https://www.mlit.go.jp/road/census/r3/index.html",
+  "files_count": 303,
+  "files": [
+    {
+      "label": "PDF",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/guide.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "PDF",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/syuukeirep.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/syuukei01.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/syuukei01.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/syuukei01.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/syuukei02.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/syuukei02.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/syuukei02.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/syuukei03.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/syuukei03.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/syuukei03.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/syuukei04.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/syuukei04.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/syuukei04.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/syuukei05.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/syuukei05.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/syuukei05.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/syuukeiformat.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "PDF",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyorep.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/KasyoFormat.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrfFormat.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo01.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo01.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo01.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf01.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf01.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf01.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo02.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo02.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo02.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf02.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf02.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf02.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo03.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo03.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo03.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf03.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf03.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf03.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo04.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo04.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo04.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf04.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf04.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf04.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo05.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo05.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo05.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf05.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf05.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf05.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo06.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo06.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo06.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf06.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf06.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf06.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo07.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo07.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo07.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf07.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf07.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf07.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo08.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo08.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo08.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf08.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf08.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf08.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo09.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo09.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo09.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf09.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf09.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf09.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo10.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo10.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo10.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf10.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf10.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf10.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo11.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo11.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo11.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf11.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf11.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf11.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo12.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo12.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo12.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf12.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf12.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf12.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo13.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo13.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo13.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf13.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf13.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf13.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo14.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo14.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo14.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf14.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf14.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf14.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo15.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo15.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo15.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf15.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf15.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf15.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo16.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo16.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo16.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf16.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf16.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf16.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo17.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo17.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo17.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf17.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf17.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf17.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo18.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo18.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo18.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf18.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf18.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf18.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo19.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo19.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo19.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf19.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf19.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf19.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo20.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo20.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo20.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf20.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf20.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf20.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo21.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo21.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo21.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf21.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf21.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf21.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo22.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo22.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo22.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf22.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf22.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf22.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo23.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo23.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo23.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf23.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf23.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf23.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo24.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo24.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo24.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf24.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf24.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf24.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo25.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo25.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo25.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf25.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf25.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf25.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo26.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo26.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo26.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf26.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf26.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf26.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo27.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo27.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo27.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf27.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf27.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf27.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo28.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo28.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo28.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf28.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf28.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf28.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo29.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo29.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo29.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf29.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf29.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf29.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo30.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo30.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo30.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf30.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf30.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf30.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo31.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo31.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo31.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf31.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf31.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf31.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo32.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo32.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo32.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf32.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf32.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf32.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo33.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo33.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo33.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf33.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf33.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf33.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo34.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo34.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo34.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf34.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf34.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf34.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo35.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo35.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo35.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf35.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf35.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf35.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo36.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo36.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo36.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf36.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf36.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf36.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo37.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo37.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo37.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf37.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf37.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf37.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo38.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo38.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo38.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf38.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf38.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf38.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo39.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo39.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo39.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf39.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf39.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf39.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo40.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo40.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo40.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf40.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf40.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf40.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo41.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo41.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo41.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf41.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf41.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf41.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo42.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo42.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo42.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf42.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf42.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf42.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo43.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo43.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo43.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf43.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf43.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf43.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo44.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo44.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo44.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf44.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf44.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf44.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo45.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo45.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo45.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf45.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf45.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf45.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo46.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo46.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo46.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf46.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf46.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf46.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo47.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/kasyo47.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo47.csv",
+      "kind": "csv",
+      "ext": "csv"
+    },
+    {
+      "label": "PDFç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/pdf/zkntrf47.pdf",
+      "kind": "pdf",
+      "ext": "pdf"
+    },
+    {
+      "label": "Excelç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/xlsx/zkntrf47.xlsx",
+      "kind": "excel",
+      "ext": "xlsx"
+    },
+    {
+      "label": "CSVç",
+      "url": "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf47.csv",
+      "kind": "csv",
+      "ext": "csv"
+    }
+  ]
+}
