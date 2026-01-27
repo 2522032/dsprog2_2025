@@ -10,21 +10,16 @@ from typing import Dict, List, Optional, Tuple
 
 import flet as ft
 
-# =========================
-# Paths
-# =========================
+
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-TRAFFIC_CSV = DATA_DIR / "zkntrf13 (1).csv"   # 時間帯別交通量
-MASTER_CSV  = DATA_DIR / "kasyo13 (1).csv"    # 区間マスタ（路線名/起点終点など）
+TRAFFIC_CSV = DATA_DIR / "zkntrf13 (1).csv"   
+MASTER_CSV  = DATA_DIR / "kasyo13 (1).csv"    
 DB_PATH = BASE_DIR / "traffic.db"
 
 
-# =========================
-# Utils
-# =========================
 def now_iso() -> str:
     return datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
 
@@ -85,14 +80,11 @@ def make_key(pref_city_code: Optional[int], unit_section_no: Optional[int]) -> O
     return f"{pref_city_code}:{unit_section_no}"
 
 
-# =========================
-# DB schema
-# =========================
 def init_db() -> None:
     con = connect_db()
     cur = con.cursor()
 
-    # 取込ログ
+    
     cur.execute("""
     CREATE TABLE IF NOT EXISTS ingest_runs (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -103,7 +95,7 @@ def init_db() -> None:
     );
     """)
 
-    # 区間（ラベル用）
+
     cur.execute("""
     CREATE TABLE IF NOT EXISTS segments (
       unit_section_no INTEGER PRIMARY KEY,
@@ -118,7 +110,6 @@ def init_db() -> None:
     );
     """)
 
-    # 時間帯別交通量（ランキング集計用の元データ）
     cur.execute("""
     CREATE TABLE IF NOT EXISTS traffic_hourly (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -130,7 +121,6 @@ def init_db() -> None:
     );
     """)
 
-    # ★選択した区間（ブックマーク）だけ保存
     cur.execute("""
     CREATE TABLE IF NOT EXISTS saved_segments (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -141,7 +131,6 @@ def init_db() -> None:
     );
     """)
 
-    # ★ランキング保存（条件）
     cur.execute("""
     CREATE TABLE IF NOT EXISTS ranking_runs (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -153,7 +142,6 @@ def init_db() -> None:
     );
     """)
 
-    # ★ランキング保存（中身）
     cur.execute("""
     CREATE TABLE IF NOT EXISTS ranking_items (
       run_id INTEGER NOT NULL,
@@ -176,9 +164,7 @@ def init_db() -> None:
     con.close()
 
 
-# =========================
-# MASTER mapping (kasyo)
-# =========================
+
 @dataclass
 class MasterInfo:
     route_name: str = ""
@@ -239,9 +225,6 @@ def load_master_map(master_csv: Path) -> Dict[str, MasterInfo]:
     return mp
 
 
-# =========================
-# Import TRAFFIC (zkntrf)
-# =========================
 def import_zkntrf_csv(traffic_csv: Path, master_map: Dict[str, MasterInfo]) -> Tuple[bool, str]:
     if not traffic_csv.exists():
         return False, f"交通量CSVが見つかりません: {traffic_csv.name}"
@@ -270,7 +253,7 @@ def import_zkntrf_csv(traffic_csv: Path, master_map: Dict[str, MasterInfo]) -> T
     con = connect_db()
     cur = con.cursor()
 
-    # 簡単運用：元データは入れ直し（保存系テーブルは残る）
+   
     cur.execute("DELETE FROM traffic_hourly;")
     cur.execute("DELETE FROM segments;")
 
@@ -332,9 +315,7 @@ def import_zkntrf_csv(traffic_csv: Path, master_map: Dict[str, MasterInfo]) -> T
     return True, f"取込OK: segments={seg_cnt}, hourly={cell_cnt}"
 
 
-# =========================
-# Queries
-# =========================
+
 def list_vehicle_types() -> List[str]:
     con = connect_db()
     cur = con.cursor()
@@ -412,9 +393,7 @@ def query_top_segments(vehicle_type: str, h1: int, h2: int, topn: int) -> List[T
     return out
 
 
-# =========================
-# Save (DB)
-# =========================
+
 def save_segment_bookmark(unit: int) -> Tuple[bool, str]:
     label = get_segment_label(unit)
     con = connect_db()
@@ -426,7 +405,7 @@ def save_segment_bookmark(unit: int) -> Tuple[bool, str]:
         """, (now_iso(), unit, label))
         con.commit()
 
-        # 追加されたか確認
+        
         cur.execute("SELECT changes();")
         changed = cur.fetchone()[0]
         con.close()
@@ -517,9 +496,7 @@ def load_ranking_items(run_id: int) -> List[Tuple[int, int, str]]:
     return [(int(r), int(t), str(lbl or "")) for (r, t, lbl) in rows]
 
 
-# =========================
-# Flet UI
-# =========================
+
 def main(page: ft.Page):
     init_db()
 
@@ -532,14 +509,12 @@ def main(page: ft.Page):
 
     ingest_btn = ft.ElevatedButton("DBに取り込む（zkntrf13 + kasyo13）")
 
-    # --- 区間選択＆保存 ---
+  
     seg_dd = ft.Dropdown(label="区間（番号 | 路線名 | 起点→終点）", width=820)
     save_seg_btn = ft.ElevatedButton("★ この区間を保存")
 
     saved_seg_dd = ft.Dropdown(label="保存した区間（履歴）", width=980)
     load_seg_btn = ft.ElevatedButton("履歴から区間を選択")
-
-    # --- ランキング ---
     vtype_dd = ft.Dropdown(label="車種区分", width=260)
     h1_tf = ft.TextField(label="hour from", value="7", width=120)
     h2_tf = ft.TextField(label="hour to", value="19", width=120)
@@ -560,7 +535,7 @@ def main(page: ft.Page):
     saved_rank_dd = ft.Dropdown(label="保存したランキング（履歴）", width=980)
     load_rank_btn = ft.ElevatedButton("履歴を表示")
 
-    # 内部：直近ランキング結果（保存ボタン用）
+
     current_rank_rows: List[Tuple[int, int, str]] = []
 
     def refresh_segments():
@@ -749,7 +724,6 @@ def main(page: ft.Page):
     save_rank_btn.on_click = on_save_rank
     load_rank_btn.on_click = on_load_rank
 
-    # 起動時（DBがすでにある場合）
     refresh_segments()
     refresh_vehicle_types()
     refresh_saved_segments()
